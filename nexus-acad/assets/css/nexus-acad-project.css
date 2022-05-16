@@ -267,11 +267,8 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 230px;
+  background-color: #13293dc9;
+  padding-top: 200px;
   padding-bottom: 110px;
   text-align: center;
 }
@@ -281,15 +278,17 @@ section.heading-page h6 {
   font-size: 15px;
   font-weight: 600;
   color: #E8F1F2;
+  text-align: center;
   letter-spacing: 1px;
 }
 
 section.heading-page h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 36px;
-  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
   color: #E8F1F2;
+  text-align: center;
   letter-spacing: 1px;
 }
 
