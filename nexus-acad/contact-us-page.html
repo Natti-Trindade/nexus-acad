@@ -87,52 +87,47 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
-         <h2>O que é a NexusAcad?</h2>
-          <h6>Quem somos nós?</h6>
+         <h2>Entre em contato agora mesmo!</h2>
+          <h6>Nos mande uma mensagem, ou faça parte da nossa equipe entrando em contato.</h6>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="meetings-page" id="meetings">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-15">
-          <div class="row">
-            <div class="col-lg-15">
-              <div class="meeting-single-item">
-                <div class="thumb">
-                  <a href="meeting-details.html"><img src="single-meeting.jpg" alt=""></a>
-                </div>
-                <div class="down-content">
-                  <h4>Sobre a Nexus</h4>
-                  
-                  <p class="description">
-                    A Nexus Acad surgiu como uma ideia de projeto, para um trabalho da cadeira de Práticas de Engenharia de Software, na faculdade Centro Universitário Ritter dos Reis (UniRitter).
-                    O professor que leciona nessa disciplina nos passou temas para o trabalho e escolhemos uma plataforma de ensino, onde pensamos em fazê-la com modelo 100% online, onde os alunos poderiam acessar os materiais de aula a qualquer momento, sem precisar sair de casa.
-                    
-                    <br>Somos então um grupo de estudantes, total de 8 integrantes.
-                  </p>
+  <section>
+    <form id="contact" action="" method="post">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Entre em Contato</h2>
+          </div>
+          <div class="col-lg-4">
+            <fieldset>
+              <input name="name" type="text" id="name" placeholder="Nome:" required="">
+            </fieldset>
+          </div>
 
-                  <br>
-                  <h4>Nós</h4>
-                  <p class="description">
-                   Natali Trindade
-                    Eduarda Lutz
-                     Eduardo Hallam
-                      Robson Farias
-                       Vinicius Ranzolin
-                    
-                  </p>
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-           
+          <div class="col-lg-4">
+            <fieldset>
+            <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-mail:" required="">
+          </fieldset>
+          </div>
+          <div class="col-lg-4">
+            <fieldset>
+              <input name="subject" type="text" id="subject" placeholder="Assunto:" required="">
+            </fieldset>
+          </div>
+          <div class="col-lg-12">
+            <fieldset>
+              <textarea name="message" type="text" class="form-control" id="message" placeholder="Mensagem:" required=""></textarea>
+            </fieldset>
+          </div>
+          <div class="col-lg-12">
+            <fieldset>
+              <button type="submit" id="form-submit" class="button">Enviar</button>
+            </fieldset>
           </div>
         </div>
-      </div>
+      </form>
 
     <div class="footer">
       <p>Copyright © 2022 NexusAcad Project., Ltd. All Rights Reserved.</p>
